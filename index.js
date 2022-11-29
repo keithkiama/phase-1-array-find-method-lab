@@ -66,9 +66,7 @@ const record = [
     for(let item of array) {
         if (item.result === "W") {
             return item.year
-        }
-        
+        } 
     }
 }
-
 record.find(superbowlWin)
