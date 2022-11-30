@@ -62,8 +62,8 @@ const record = [
   ]
 
 //Using an arrow function
-  const superbowlWin = array => {
-    for(let item of array) {
+  const superbowlWin = record => {
+    for(let item of record) {
         if (item.result === "W") {
             return item.year
         } 
@@ -72,8 +72,8 @@ const record = [
 record.find(superbowlWin)
 
 // //or
-// function superbowlWin(array){
-//   for(let item of array) {
+// function superbowlWin(record){
+//   for(let item of record) {
 //     if (item.result === "W") {
 //           return item.year
 //     }
